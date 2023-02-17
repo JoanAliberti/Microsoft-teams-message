@@ -1,6 +1,6 @@
 FROM dhollerbach/ubuntu:msteams
 WORKDIR /APP
 COPY entrypoint.sh /entrypoint.sh
-RUN sudo chmod +x entrypoint.sh
+RUN ls
      
 ENTRYPOINT ["/entrypoint.sh"]
